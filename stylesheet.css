@@ -1,0 +1,112 @@
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1,5;
+    font-size: 16px;
+    font-style: italic;
+    padding: 5px;
+
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+   color:hotpink; 
+}
+
+body{
+    max-width:90%;
+    margin:auto;
+    background: linear-gradient(90deg,#5b86e5, #36d1dc );
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  
+}
+blockquote{
+    display:block;
+    position: relative;
+    margin: auto;
+    max-width: 45%;
+    text-align: center;
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px solid black;
+    padding: 80px 30px 80px 30px;
+    font-style: italic;
+    
+} 
+
+  header{
+      background: darkgrey;
+      padding: 10px;
+      font-size: 18px;
+      
+  }
+
+  .v1{
+      
+      border-left: 3px solid red;
+     
+  }
+
+  .a1{
+      border-left: 3px solid green;
+  }
+
+  ul{
+      font-size: 18px;
+     
+  }
+
+  .good{
+      color:green;
+  }
+
+  .bad{
+      color:red;
+  }
+
+  table{
+      width:25%;
+      border: 1px solid black; 
+      border-collapse:collapse;
+      
+  }
+
+  td,th{
+    border: 1px solid black; 
+    border-collapse:collapse;
+    width:25%;
+    padding: 5px;
+    
+    
+  }
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color:grey;
+}
+
+.bien,.mal,.chat{
+    display:flex;
+    float:right;
+    width: 20px;
+    height: 20px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Calligraffitti', cursive;
+}
